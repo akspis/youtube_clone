@@ -10,7 +10,8 @@ export const buttonData = [
   "News",
 ];
 
-export const API_KEY = process.env.REACT_APP_API_KEY;
+// it should come from env
+export const API_KEY = "AIzaSyD9iuDc31CLYkPZOoaUHMtfR3QW8k7Mi";
 
 export const YOUTUBE_VIDEOS_API =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" +
